@@ -1,0 +1,37 @@
+/**
+ * @Author: Jecyu
+ * @Date: 2017-12-17 11:51:58 am 
+ * @Modified By: JeCyu 
+ * @Last Modified time: 2017-12-17 12:52:09 pm 
+ */
+
+// Utilities
+@import "utilities/_variable.scss";
+@import "utilities/_mixin.scss";
+
+// base 
+@import "base/_normalize.scss";
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font: normal 10px/1.5;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    // color: $item1;
+    // width: pxTorem(20px);
+}
