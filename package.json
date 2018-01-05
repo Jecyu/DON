@@ -1,0 +1,41 @@
+{
+  "name": "don",
+  "version": "1.0.0",
+  "description": "花森动漫门户网站，你最爱的动漫网站。\r ===============\r 运用HTML5、CSS3、JavaScript、JQuery、Echarts等技术实现，",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jecyu/DON.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jecyu/DON/issues"
+  },
+  "homepage": "https://github.com/Jecyu/DON#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-file-include": "^2.0.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-append": "^0.1.8",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

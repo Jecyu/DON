@@ -9,29 +9,62 @@
 @import "utilities/_variable.scss";
 @import "utilities/_mixin.scss";
 
-// base 
+// base
 @import "base/_normalize.scss";
+
+$item1: #ccc;
 
 html,
 body {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 html {
-    font: normal 10px/1.5;
+    font-size: 100px;
     font-family: "Microsoft YaHei", sans-serif;
 }
 
+body {
+    font: 16px/1.5;
+}
+
 html,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 body,
-p {
+a,
+img,
+ul,
+li,
+ol,
+p,
+div,
+header,
+main,
+footer,
+section,
+article,
+aside {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    // color: $item1;
-    // width: pxTorem(20px);
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
 }

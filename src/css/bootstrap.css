@@ -6290,6 +6290,7 @@ button.close {
 .carousel-inner > .prev {
   display: block;
 }
+
 .carousel-inner > .active {
   left: 0;
 }
